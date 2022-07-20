@@ -1,0 +1,28 @@
+.product {
+    display: flex;
+    border-bottom: 2px solid lightgray;
+    padding: 10px;
+}
+
+.product-image {
+    margin: 15px;
+}
+
+.product-details .name {
+    color: blue;
+    font-weight: 400;
+}
+
+.card-button {
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(116, 85, 6);
+    border-radius: 5px;
+
+}
+
+.card-button:hover {
+    background-color: rgb(224, 179, 64);
+    cursor: pointer;
+}
